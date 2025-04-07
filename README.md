@@ -8,14 +8,20 @@
 
 3. Navigate to the project directory in your terminal.
 
-4. Run the following command to install the required dependencies:
+4. Create a `.env` file in the root directory of the project and add the following variables:
+    ```plaintext
+    MONGO_URI=mongodb://localhost:27017/your_database_name
+    PORT=3000
+    ```
+
+5. Run the following command to install the required dependencies:
     ```bash
     npm install
     ```
 
-5. Start the project by running:
+6. Start the project by running:
     ```bash
-    npm start
+    npm run dev
     ```
 
-6. The application should now be running. Follow any additional instructions provided in the project documentation for usage.
+7. The application should now be running. Follow any additional instructions provided in the project documentation for usage.
